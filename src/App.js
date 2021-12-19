@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
+import MyPractice from "./tutorial/12-memo-useMemo-useCallback/myPractice";
+
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <MyPractice />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
